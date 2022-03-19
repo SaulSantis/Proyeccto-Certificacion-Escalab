@@ -34,7 +34,7 @@ hgroup {
   width: 100%;
 }
 
-a {
+a, .section1_play {
   text-decoration: none;
   outline: none;
   transition: 0.4s all ease-in-out;
@@ -345,4 +345,68 @@ ul li a {
   border: 0;
   outline: none;
   color: #ffffff;
+}
+
+/* MAIN  */
+/* SECTION1 */
+.section1_info{
+  text-align: left;
+  margin-right: 190px;
+}
+.section1_info h2{
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 55px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.section1_info p{
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  margin-bottom: 50px;  
+}
+.section1_info a{
+  background-color: #fcc302;
+  padding: 1rem 1.5rem;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.section1_info a:hover{
+  background-color: #ebb402;
+}
+
+.section1_image{
+  text-align: left;
+  padding-bottom: 450px;
+}
+
+.section1_background_image{
+  width: 500px;
+  position: absolute;
+  z-index: 800;
+}
+
+.section1_play{
+  position: absolute;
+  width: 90px;
+  z-index: 900;
+  margin-top: 170px;
+  margin-left: 220px;
+}
+
+.section1_play:hover{
+  transform: scale(1.4);
+}
+
+/* SECTION2 */
+.section2{
+  background-color: #fcc302;
 }
