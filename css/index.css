@@ -181,7 +181,6 @@ header {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
   min-height: 90vh;
 }
 
@@ -237,14 +236,13 @@ header {
 /* FOOTER */
 footer {
   text-align: left;
-  align-items: center;
   padding: 4rem 0;
   background-color: #343434;
 }
 
 .footer_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 2rem auto;
   color: #ffffff;
 }
